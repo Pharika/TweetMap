@@ -1,0 +1,199 @@
+/* *** Reset browser styles *** */
+
+
+h1, h2, h3, h4, h5, h6, p, div, ul, ol, li, code, pre, form, fieldset, blockquote, html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+
+table {
+	border-collapse: collapse; /* prevents double borders */
+	border-spacing: 0;
+}
+
+td, th, caption {
+	font-weight: normal;
+	text-align: left;
+}
+
+img, fieldset  { 
+	border: 0; /* remove border around linked images and fieldsets */
+}
+
+ol  {
+	margin-left: 1.8em; /* add smaller indent than default */
+	list-style: decimal;
+}
+
+ul {
+	margin-left: 1.5em;
+	list-style:square;
+}
+
+q:before, q:after { 
+	content:''; /* remove browser generated quote marks */
+}
+
+
+/* 2 col layout */
+
+#twoCol #contentWrap {
+	width: 760px;
+}
+
+#twoCol #main {
+	width: 530px;
+	margin-left: 10px;
+}
+
+
+/* common layout */
+
+#contentWrap {
+	float:left;
+}
+
+#contentWrap #main {
+	float: right;
+}
+
+#twoCol #news {
+	float: left;
+	width: 200px;
+	background: url(../images/burning_book.jpg) no-repeat 70% 100%;
+	padding-bottom: 350px;
+	margin-top: 2em;
+	border-left: 1px dotted #999999;
+}
+
+#container {
+	width: 760px;
+	margin: 0 auto;
+	border-right: 1px solid #A7A37E;
+	border-left: 1px solid #A7A37E;
+	background-color: #FFFFFF;
+	position: relative;
+}
+
+#footer {
+	clear: both;
+}
+
+
+
+/* page styles */
+body {
+	font: 100% "Trebuchet MS", Arial, sans-serif;
+	background: url(../images/bg.png) repeat-x;
+}
+
+
+#news h2, #main h1 {
+	font-size: 32px;
+	color: #002F2F;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	line-height: 0.9em;
+	border-top: 1px solid #A7A37E;
+	padding-top: 3px;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #A7A37E;
+}
+
+
+#main h1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform: none;
+	color: #990000;
+	padding-top: 1em;
+	font-weight: normal;
+	border-top-style: none;
+}
+
+#main h2 {
+	color: #023131;
+	font-size: 24px;
+	font-weight: bold;
+}
+#main {
+	padding-top: 1em;
+}
+#main p {
+	font: 18px Georgia, "Times New Roman", Times, serif;
+	margin-bottom: 1em;
+}
+
+
+#footer {
+	border-top: 1px solid #A7A37E;
+	font: normal 14px/1em Georgia, "Times New Roman", Times, serif;
+	color: #046380;
+	margin-top: 10px;
+	background: #E6E2AF;
+	text-align: right;
+	padding: 7px 10px 6px 0;
+	border-right: 1px solid #A7A37E;
+	margin-left: 230px;
+}
+
+#banner {
+	background: #A7A37E;
+	position: relative;
+}
+
+
+#oneCol #contentWrap {
+	float: none;
+}
+#oneCol #main {
+	float: none;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+#navbar li {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+ 
+ br.clear {
+	height: 0;
+	font-size:1px;
+	line-height:0;
+	clear: both;
+	margin: 0;
+	padding: 0;
+}
+
+
+#main ul {
+	font-size:16px;
+	margin-bottom: 15px;
+}
+#navbar {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+#navbar a {
+	display: block;
+	float: left;
+	width: 125px;
+	padding: 6px 10px;
+	font-size: 14px;
+	text-decoration: none;
+	font-weight: bold;
+	background: #A7A37E;
+	color: #0F3B3B;
+	border-right: 1px dotted #FFFFFF;
+	border-bottom: 4px solid #033131;
+}
+
+#navbar a:hover {
+	color: #013030;
+	background: #E6E2AF;
+}

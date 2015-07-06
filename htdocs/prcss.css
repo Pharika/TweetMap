@@ -1,0 +1,19 @@
+#container{width:100%;}
+#left{
+background-color: #F4F4F3;
+text-align: left;
+float:left;
+width:50%;
+height:100%;
+border-style:solid;
+  border-color:black;
+
+
+}
+#right{
+background-color:yellow;
+text-align:left;
+float:right;width:50%;height:100%;
+border-style:solid;
+  border-color:black;
+}
